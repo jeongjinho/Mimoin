@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B8C203D2349DC7300AE06AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C203C2349DC7300AE06AB /* AppDelegate.swift */; };
+		7B8C203F2349DC7300AE06AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C203E2349DC7300AE06AB /* SceneDelegate.swift */; };
+		7B8C20422349DC7300AE06AB /* Mimoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C20402349DC7300AE06AB /* Mimoin.xcdatamodeld */; };
+		7B8C20442349DC7300AE06AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C20432349DC7300AE06AB /* ContentView.swift */; };
+		7B8C20462349DC7400AE06AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8C20452349DC7400AE06AB /* Assets.xcassets */; };
+		7B8C20492349DC7400AE06AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8C20482349DC7400AE06AB /* Preview Assets.xcassets */; };
+		7B8C204C2349DC7400AE06AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8C204A2349DC7400AE06AB /* LaunchScreen.storyboard */; };
+		7B8C20572349DC7500AE06AB /* MimoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C20562349DC7500AE06AB /* MimoinTests.swift */; };
+		7B8C20622349DC7500AE06AB /* MimoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C20612349DC7500AE06AB /* MimoinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B8C20532349DC7500AE06AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8C20312349DC7300AE06AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8C20382349DC7300AE06AB;
+			remoteInfo = Mimoin;
+		};
+		7B8C205E2349DC7500AE06AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B8C20312349DC7300AE06AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B8C20382349DC7300AE06AB;
+			remoteInfo = Mimoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B8C20392349DC7300AE06AB /* Mimoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8C203C2349DC7300AE06AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B8C203E2349DC7300AE06AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B8C20412349DC7300AE06AB /* Mimoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mimoin.xcdatamodel; sourceTree = "<group>"; };
+		7B8C20432349DC7300AE06AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B8C20452349DC7400AE06AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8C20482349DC7400AE06AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B8C204B2349DC7400AE06AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B8C204D2349DC7400AE06AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8C20522349DC7500AE06AB /* MimoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8C20562349DC7500AE06AB /* MimoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimoinTests.swift; sourceTree = "<group>"; };
+		7B8C20582349DC7500AE06AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8C205D2349DC7500AE06AB /* MimoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8C20612349DC7500AE06AB /* MimoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimoinUITests.swift; sourceTree = "<group>"; };
+		7B8C20632349DC7500AE06AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B8C20362349DC7300AE06AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8C204F2349DC7500AE06AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8C205A2349DC7500AE06AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B8C20302349DC7300AE06AB = {
+			isa = PBXGroup;
+			children = (
+				7B8C203B2349DC7300AE06AB /* Mimoin */,
+				7B8C20552349DC7500AE06AB /* MimoinTests */,
+				7B8C20602349DC7500AE06AB /* MimoinUITests */,
+				7B8C203A2349DC7300AE06AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B8C203A2349DC7300AE06AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B8C20392349DC7300AE06AB /* Mimoin.app */,
+				7B8C20522349DC7500AE06AB /* MimoinTests.xctest */,
+				7B8C205D2349DC7500AE06AB /* MimoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B8C203B2349DC7300AE06AB /* Mimoin */ = {
+			isa = PBXGroup;
+			children = (
+				7B8C203C2349DC7300AE06AB /* AppDelegate.swift */,
+				7B8C203E2349DC7300AE06AB /* SceneDelegate.swift */,
+				7B8C20432349DC7300AE06AB /* ContentView.swift */,
+				7B8C20452349DC7400AE06AB /* Assets.xcassets */,
+				7B8C204A2349DC7400AE06AB /* LaunchScreen.storyboard */,
+				7B8C204D2349DC7400AE06AB /* Info.plist */,
+				7B8C20402349DC7300AE06AB /* Mimoin.xcdatamodeld */,
+				7B8C20472349DC7400AE06AB /* Preview Content */,
+			);
+			path = Mimoin;
+			sourceTree = "<group>";
+		};
+		7B8C20472349DC7400AE06AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B8C20482349DC7400AE06AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B8C20552349DC7500AE06AB /* MimoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8C20562349DC7500AE06AB /* MimoinTests.swift */,
+				7B8C20582349DC7500AE06AB /* Info.plist */,
+			);
+			path = MimoinTests;
+			sourceTree = "<group>";
+		};
+		7B8C20602349DC7500AE06AB /* MimoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8C20612349DC7500AE06AB /* MimoinUITests.swift */,
+				7B8C20632349DC7500AE06AB /* Info.plist */,
+			);
+			path = MimoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B8C20382349DC7300AE06AB /* Mimoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8C20662349DC7500AE06AB /* Build configuration list for PBXNativeTarget "Mimoin" */;
+			buildPhases = (
+				7B8C20352349DC7300AE06AB /* Sources */,
+				7B8C20362349DC7300AE06AB /* Frameworks */,
+				7B8C20372349DC7300AE06AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mimoin;
+			productName = Mimoin;
+			productReference = 7B8C20392349DC7300AE06AB /* Mimoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B8C20512349DC7500AE06AB /* MimoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8C20692349DC7500AE06AB /* Build configuration list for PBXNativeTarget "MimoinTests" */;
+			buildPhases = (
+				7B8C204E2349DC7500AE06AB /* Sources */,
+				7B8C204F2349DC7500AE06AB /* Frameworks */,
+				7B8C20502349DC7500AE06AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8C20542349DC7500AE06AB /* PBXTargetDependency */,
+			);
+			name = MimoinTests;
+			productName = MimoinTests;
+			productReference = 7B8C20522349DC7500AE06AB /* MimoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B8C205C2349DC7500AE06AB /* MimoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8C206C2349DC7500AE06AB /* Build configuration list for PBXNativeTarget "MimoinUITests" */;
+			buildPhases = (
+				7B8C20592349DC7500AE06AB /* Sources */,
+				7B8C205A2349DC7500AE06AB /* Frameworks */,
+				7B8C205B2349DC7500AE06AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8C205F2349DC7500AE06AB /* PBXTargetDependency */,
+			);
+			name = MimoinUITests;
+			productName = MimoinUITests;
+			productReference = 7B8C205D2349DC7500AE06AB /* MimoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B8C20312349DC7300AE06AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "진호놀이터";
+				TargetAttributes = {
+					7B8C20382349DC7300AE06AB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					7B8C20512349DC7500AE06AB = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 7B8C20382349DC7300AE06AB;
+					};
+					7B8C205C2349DC7500AE06AB = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 7B8C20382349DC7300AE06AB;
+					};
+				};
+			};
+			buildConfigurationList = 7B8C20342349DC7300AE06AB /* Build configuration list for PBXProject "Mimoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B8C20302349DC7300AE06AB;
+			productRefGroup = 7B8C203A2349DC7300AE06AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B8C20382349DC7300AE06AB /* Mimoin */,
+				7B8C20512349DC7500AE06AB /* MimoinTests */,
+				7B8C205C2349DC7500AE06AB /* MimoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B8C20372349DC7300AE06AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8C204C2349DC7400AE06AB /* LaunchScreen.storyboard in Resources */,
+				7B8C20492349DC7400AE06AB /* Preview Assets.xcassets in Resources */,
+				7B8C20462349DC7400AE06AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8C20502349DC7500AE06AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8C205B2349DC7500AE06AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B8C20352349DC7300AE06AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8C203D2349DC7300AE06AB /* AppDelegate.swift in Sources */,
+				7B8C203F2349DC7300AE06AB /* SceneDelegate.swift in Sources */,
+				7B8C20442349DC7300AE06AB /* ContentView.swift in Sources */,
+				7B8C20422349DC7300AE06AB /* Mimoin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8C204E2349DC7500AE06AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8C20572349DC7500AE06AB /* MimoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8C20592349DC7500AE06AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8C20622349DC7500AE06AB /* MimoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B8C20542349DC7500AE06AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8C20382349DC7300AE06AB /* Mimoin */;
+			targetProxy = 7B8C20532349DC7500AE06AB /* PBXContainerItemProxy */;
+		};
+		7B8C205F2349DC7500AE06AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B8C20382349DC7300AE06AB /* Mimoin */;
+			targetProxy = 7B8C205E2349DC7500AE06AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B8C204A2349DC7400AE06AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8C204B2349DC7400AE06AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B8C20642349DC7500AE06AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B8C20652349DC7500AE06AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B8C20672349DC7500AE06AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mimoin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mimoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.life.Mimoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B8C20682349DC7500AE06AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mimoin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Mimoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.life.Mimoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B8C206A2349DC7500AE06AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimoinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.life.MimoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mimoin.app/Mimoin";
+			};
+			name = Debug;
+		};
+		7B8C206B2349DC7500AE06AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimoinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.life.MimoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mimoin.app/Mimoin";
+			};
+			name = Release;
+		};
+		7B8C206D2349DC7500AE06AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.life.MimoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mimoin;
+			};
+			name = Debug;
+		};
+		7B8C206E2349DC7500AE06AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimoinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.life.MimoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mimoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B8C20342349DC7300AE06AB /* Build configuration list for PBXProject "Mimoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8C20642349DC7500AE06AB /* Debug */,
+				7B8C20652349DC7500AE06AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8C20662349DC7500AE06AB /* Build configuration list for PBXNativeTarget "Mimoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8C20672349DC7500AE06AB /* Debug */,
+				7B8C20682349DC7500AE06AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8C20692349DC7500AE06AB /* Build configuration list for PBXNativeTarget "MimoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8C206A2349DC7500AE06AB /* Debug */,
+				7B8C206B2349DC7500AE06AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B8C206C2349DC7500AE06AB /* Build configuration list for PBXNativeTarget "MimoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8C206D2349DC7500AE06AB /* Debug */,
+				7B8C206E2349DC7500AE06AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B8C20402349DC7300AE06AB /* Mimoin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B8C20412349DC7300AE06AB /* Mimoin.xcdatamodel */,
+			);
+			currentVersion = 7B8C20412349DC7300AE06AB /* Mimoin.xcdatamodel */;
+			path = Mimoin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7B8C20312349DC7300AE06AB /* Project object */;
+}
